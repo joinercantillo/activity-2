@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Workspace Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Mi Workspace</h1>
+        <button id="toggle-dark">Modo Oscuro</button>
+        
+        <div class="controls">
+            <input type="text" id="task-input" placeholder="Nueva tarea...">
+            <button id="add-btn">Agregar</button>
+        </div>
+
+        <div class="filters">
+            <button onclick="setFilter('all')">Todas</button>
+            <button onclick="setFilter('pending')">Pendientes</button>
+            <button onclick="setFilter('completed')">Completadas</button>
+        </div>
+
+        <ul id="task-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

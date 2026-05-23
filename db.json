@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Configurar estructura",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Sincronizar storage",
+      "completed": false
+    },
+    {
+      "title": "assaas",
+      "completed": true,
+      "id": "kQxfqmz_mg0"
+    },
+    {
+      "title": "ssssss",
+      "completed": false,
+      "id": "yzgyR_SR0pc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
