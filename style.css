@@ -45,7 +45,7 @@ h1 {
     text-align: center;
 }
 
-/* Botón Modo Oscuro */
+//Botón Modo Oscuro
 #toggle-dark {
     float: right;
     background: none;
@@ -57,7 +57,7 @@ h1 {
     font-size: 0.8rem;
 }
 
-/* Input y Botón Agregar */
+//Input y Botón Agregar
 .controls {
     display: flex;
     gap: 10px;
